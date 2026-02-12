@@ -34,7 +34,7 @@ We will compare the O18 values in the gridded datasets your model produces with 
 ### Notes for WP3 discussion 
 * The expected dimensions of the gridded dataset (540 months * 3 depth slices * 900 x * 900 y) should be adjusted based on reasonable expectations.
 
-* I think for this challenge to work we'd need to convert Charles' database into an equivalent (540 * 3 * 900 * 900) gridded training dataset which would require a bit of work, for example averaging depths/months and projecting points onto a grid. I don't know whether we could make this compatible with croissant format. 
+* I think for this challenge to work we'd need to convert Charles' database into an equivalent (540 * 3 * 900 * 900) gridded training dataset which would require a bit of work, for example averaging depths/months and projecting points onto a grid. I don't know whether we could make this compatible with croissant format. (JC: I don't think netCDF (or any other common gridded data format) is within the realms of croissant)
 
 * Here we would be evaluating the resulting grids they produce rather than the model directly. I think this just makes life easier.
 

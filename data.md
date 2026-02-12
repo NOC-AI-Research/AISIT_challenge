@@ -17,9 +17,9 @@ Early observations were made using bottles. More recently, observations are made
 - `Time` - the time (in UTC?), not available for all observations.
 - `Latitude` - degrees north where the observation was made.
 - `Longitude` - degrees east where the observations was made.
-- `Temperature` - observbed temperature. 
+- `Temperature` - observed temperature. 
 - `CTD_Pressure` - observed pressure.
 - `Depth_From_Pressure` - calculated depth in metres from the observed pressure.
-- `DELO18` - isotope content.
+- `DELO18` - Oxygen-18 isotope content.
 - `CTD_Salinity` - calculated salinity from the CTD.
 - `Bottle_Salinity` - calculated salinity from a bottle sample.
