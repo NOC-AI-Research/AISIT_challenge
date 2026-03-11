@@ -4,6 +4,8 @@
 
 The dataset is a collation of observations from a variety of campaigns from 1961 to the present day. Due to the historical nature of the data, not all values are present, particularly for early cruises.
 
+<img src="assets/bas_sampling_yr.png" alt="drawing" width="800"/>
+
 Early observations were made using bottles. More recently, observations are made using CTDs, which measure **c**onductivity, **t**emperature and **d**epth.
 
 #### Files
