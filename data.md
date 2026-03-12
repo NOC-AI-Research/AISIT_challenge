@@ -8,10 +8,14 @@ The dataset is a collation of observations from a variety of campaigns from 1961
 
 Early observations were made using bottles. More recently, observations are made using CTDs, which measure **c**onductivity, **t**emperature and **d**epth.
 
+The training dataset are provided as CSV files with [XXX] rows and 31 columns. Each row contains a single  $\delta^{18}$O measurement and all available metadata. A description of each column, including units and parameter notes, are found in the associated `dataset_schema.csv` files. Not all metadata is available for each data point. 
+
+
 #### Files
 
 - `train.csv`
 - `test.csv`
+- `dataset_schema.csv`
 
 #### Columns
 - `id`
