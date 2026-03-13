@@ -36,7 +36,7 @@ We will compare the O18 values in the gridded datasets your model produces with 
 
 ### Prizes
 
-What do points make?
+The winners will receive a goody bag of merchandise from the hosts.
 
 ### About the hosts
 
