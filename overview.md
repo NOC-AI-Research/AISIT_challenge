@@ -34,7 +34,14 @@ Your model should be a machine learning model trained on the training data. The 
 
 ### Evaluation
 
-We will compare the $\delta^{18}O$ values in the gridded datasets your model produces with a private held-out gridded dataset of observed $\delta^{18}O$ values. We will assess the model performance based on Root Mean Square Error for these comparison points.
+We will compare the $\delta^{18}O$ values in the gridded datasets your model produces with a private held-out gridded dataset of observed $\delta^{18}O$ values. We will assess your trained model performance based on Root Mean Square Error (RMSE) for these comparison points.
+You should submit your submission as a netCDF file with the dimensions above. We will subsample your gridded output at our selected observation points and use the RMSE to score your submission.
+
+For $n$ observations points, where $y_i$ is the truth and $\hat{y_i}$ is the ML model prediction at the $i$ th observation point,
+
+$$
+RMSE =  \sqrt{\frac{1}{n} \sum_{i=1}^n(y_i - \hat{y_i})^2}
+$$
 
 ### Prizes
 
